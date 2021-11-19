@@ -18,6 +18,7 @@ redundant requirement
 - Establish a VMSS maximum
 - Establish an Autoscale rule that scales up/down based on a metric of your choice (and
 be able to demonstrate a scaling event)
+
 Network Security Group allowing HTTP traffic to load balancer from anywhere (not directly to
 the instance(s))
 Network Security Group allowing only HTTP traffic from the load balancer to the instance(s)
@@ -28,6 +29,7 @@ Some kind of automation or scripting that achieves the following:
 - May be written in the language of your choice (HTML, PHP, etc)
 - May be sourced from the location of your choice (Git, cookbook file/ template, etc)
 - Must include the server’s hostname in the “hello world” presented to the user
+
 All Azure resources must be created using Terraform or Azure Resource Manager
 No resources may be created or managed by hand in the portal, the Azure CLI, or with
 Powershell
